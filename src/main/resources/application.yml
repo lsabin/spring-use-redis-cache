@@ -1,0 +1,7 @@
+spring:
+  redis:
+    host: ${REDIS_REPL_HOST}
+    password: ${REDIS_REPL_PASS}
+    sentinel:
+      master: ${REDIS_REPL_NAME}
+      nodes: ${REDIS_REPL_NODES}
